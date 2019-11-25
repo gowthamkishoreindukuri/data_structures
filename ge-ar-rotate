@@ -1,0 +1,17 @@
+using namespace std;
+int main(){
+	int t,n,a[1000001],q;
+	cin>>t;
+	while(t--){
+		cin>>n;
+		for(int i=0;i<n;cin>>a[i++]);
+		if(n==1){
+			cout<<a[0]<<"\n";
+		}
+		else{
+			q=(n-2)/4;
+			q+=(n%2?2:1);
+			cout<<a[q]<<"\n";
+		}
+	}
+}
