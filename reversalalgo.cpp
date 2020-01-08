@@ -11,6 +11,7 @@ int main()
     }
     int d;
     cin >> d;
+    d=d%s;
     for(int j=0;j<s;j++)
     {
         if(j<d)
