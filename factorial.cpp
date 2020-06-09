@@ -1,19 +1,21 @@
-#include<bits/stdc++.h>
-using namespace  std;
+#include <iostream>
+using namespace std;
 int main()
 {
-    int t;
-    cin>>t;
-    while(t--)
+    long long t;
+
+    cin >> t;
+    while (t--)
     {
-        int n;
-        cin>>n;
-        long long a[n];
-        a[0]=1;
-        for(int i=2;i<n+1;i++)
+        int k = 0;
+        long long num;
+
+        cin >> num;
+        while (num / 5 != 0)
         {
-            a[i-1]=a[i-2]*i;
+            k = k + num / 5;
+            num = num / 5;
         }
-        cout<<a[n-1]<<endl;
+            cout << k << endl;
     }
 }
