@@ -8,7 +8,8 @@ int main()
     {
         int a;
         string o;
-        cin>>a>>o;
+        cin>>a;
+        cin>>o;
         int s=0;
         string n;
         int v;
