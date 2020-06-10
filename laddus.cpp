@@ -20,8 +20,7 @@ int main()
                 cin>>v;
                 s=s+300+(v>20?0:20)-v;
             }
-            if(n=="TOP_CONTRIBUTOR")2
-
+            if(n=="TOP_CONTRIBUTOR")
             {
                 s=s+300;
             }
